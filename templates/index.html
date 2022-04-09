@@ -17,7 +17,9 @@
                 </div>
             </div>
         </div>
-        <a class="btn btn-primary" href="{{ game.archive }}" download=""><img src="{{ url_for('static', filename='img/download.png') }}" alt="" style="margin: 18px 12px 0;"></a>
+        <div class="button__container">
+            <button class="btnnn"><a  href="{{ game.archive }}" download=""><img src="{{ url_for('static', filename='img/download.png') }}" alt=""></a></button>
+        </div>
     </div>
 {% endfor %}
 {% endblock %}

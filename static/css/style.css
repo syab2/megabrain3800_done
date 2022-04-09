@@ -1,5 +1,6 @@
 body {
     background-color: #c7e2ff;
+    background-image: url('../img/background.jpg');
 }
 
 .game-selection {
@@ -12,11 +13,23 @@ body {
 }
 
 .game-description {
-    min-width: 872px;
+    max-width: 872px;
+}
+
+.button__container {
+    margin-left: auto;
+}
+
+.btnnn {
+    right: 0;
+    width: 100px;
+    height: 100px;
+    outline: none;
+    border: none;
 }
 
 button.button {
-    position: relative;
+    display: flex;
     background-color: rgb(30, 109, 255);
     border: none;
     color: whitesmoke;
